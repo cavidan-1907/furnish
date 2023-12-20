@@ -1,0 +1,43 @@
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 32px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+input, button {
+  outline: none;
+}
+
+nav {
+  width: 100%;
+  padding: 12px 0;
+  position: absolute;
+  z-index: 1;
+}
+nav .container .nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .container .nav ul {
+  display: flex;
+  gap: 10px;
+}
+
+.section1 {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+}/*# sourceMappingURL=style.css.map */
