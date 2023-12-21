@@ -1,0 +1,77 @@
+.section3 {
+    width: 100%;
+    background-image: url("../image/bg_4.jpg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+    .container {
+        .section31 {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content:center;
+            .left {
+                width: 50%;
+            }
+            .right {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                width: 50%;
+                h1 {
+                    font-weight: 600;
+                    color: gray;
+                    font-size: 13px;
+                    letter-spacing: 2px;
+                }
+                h2 {
+                 
+                    font-weight: 500;
+                    font-size: 40px;
+                }
+                p {
+                    font-weight: 500;
+                    color: gray;
+                    font-size: 15px;
+                    letter-spacing: 1px;
+                }
+                .video {
+                    width: 70%;
+                    display: flex;
+                    justify-content: flex-start;
+                    gap: 20px;
+                    align-items: center;
+                    i{
+                        font-size: 25px;
+                        padding: 24px 28px;
+                        background-color: #cf7500;
+                        color:white;  
+                        border-radius: 999px;
+                    }
+                    p {
+                        font-weight: 700;
+                        font-size: 14px;
+                        color:#cf7500;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:768px) {
+    .section3{
+        width: 100%;
+        .container{
+            .section31{ 
+                .left{
+                    display: none;
+                }
+                .right{
+                    width: 95%;
+                }
+               }
+        }
+        
+     }
+}

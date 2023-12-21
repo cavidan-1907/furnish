@@ -136,4 +136,74 @@ nav .container .nav menu {
   .section1 .section11 .left h2 {
     font-size: 35px;
   }
+}
+.section3 {
+  width: 100%;
+  background-image: url("../image/bg_4.jpg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+}
+.section3 .container .section31 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section3 .container .section31 .left {
+  width: 50%;
+}
+.section3 .container .section31 .right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+}
+.section3 .container .section31 .right h1 {
+  font-weight: 600;
+  color: gray;
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+.section3 .container .section31 .right h2 {
+  font-weight: 500;
+  font-size: 40px;
+}
+.section3 .container .section31 .right p {
+  font-weight: 500;
+  color: gray;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.section3 .container .section31 .right .video {
+  width: 70%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  align-items: center;
+}
+.section3 .container .section31 .right .video i {
+  font-size: 25px;
+  padding: 24px 28px;
+  background-color: #cf7500;
+  color: white;
+  border-radius: 999px;
+}
+.section3 .container .section31 .right .video p {
+  font-weight: 700;
+  font-size: 14px;
+  color: #cf7500;
+}
+
+@media screen and (max-width: 768px) {
+  .section3 {
+    width: 100%;
+  }
+  .section3 .container .section31 .left {
+    display: none;
+  }
+  .section3 .container .section31 .right {
+    width: 95%;
+  }
 }/*# sourceMappingURL=style.css.map */
